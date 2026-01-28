@@ -8,8 +8,9 @@
 		<classes>
 			<class name="testCases.TC001_AccountRegisterationTest"/>
 			<class name="testCases.TC002_LoginTestcase1"/>
-		<!--<class name="testCases.TC003_LoginTestcaseDDT"/>-->
-		<!--<class name="testCases.TC_LF_001_005_LoginTestCasesDDT"/>-->
+			<class name="testCases.TC003_LoginTestcaseDDT"/>
+			<class name="testCases.TC_LF_001_005_LoginTestCasesDDT"/>
+			<class name="testCases.TC_LF_021_LoginPageTestcase"/>
 		</classes>
 	</test>
 </suite>
