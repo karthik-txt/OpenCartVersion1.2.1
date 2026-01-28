@@ -26,6 +26,7 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//span[text()='My Account']") WebElement txt_myaccount_link;
 	@FindBy(how=How.XPATH, using="//a[text()='Login']") WebElement txt_login_link;//login link
 	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement login_alert_msg;
+	@FindBy(how=How.LINK_TEXT, using="Forgotten Password") WebElement forgot_pwd;
 	
 	
 	public void setLogin_Email_ID(String emailID) {
@@ -60,5 +61,18 @@ public class LoginPage extends BasePage {
 			return (e.getMessage());
 		}
 	}
+	
+	public void clickForgotPwdlink() {
+		forgot_pwd.click();	
+	}
+	
+	public boolean forgotpwdlinkvisible() {
+		try {
+			return forgot_pwd.isDisplayed();
+		}catch(Exception e) {
+			return false;
+		}
+	}
+	
 
 }

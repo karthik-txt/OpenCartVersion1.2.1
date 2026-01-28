@@ -1,36 +1,42 @@
-19:10:49.353 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-19:10:49.359 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-19:10:49.372 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-19:10:49.391 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-19:10:49.394 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-19:10:49.421 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-19:10:49.431 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-19:10:49.449 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-19:10:49.450 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-19:10:49.451 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-19:10:49.467 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-18:45:45.725 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml"
-18:45:45.784 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml] otherwise TestNG may fail or not work as expected.
-18:45:57.037 [main] INFO  testCases.TC001_AccountRegisterationTest - ***************Started TC001_AccountRegisterationTest***********
-18:45:57.073 [main] INFO  testCases.TC001_AccountRegisterationTest - Click the MyAccount Link from the hompage
-18:45:57.247 [main] INFO  testCases.TC001_AccountRegisterationTest - Click the Registeration Link from the hompage
-18:45:57.801 [main] INFO  testCases.TC001_AccountRegisterationTest - After Clicking the Registeration Link it is navigated to the Account Registeration Page
-18:45:57.804 [main] INFO  testCases.TC001_AccountRegisterationTest - Add the below details in the Registeraion page for the Registeration purpose
-18:46:02.554 [main] INFO  testCases.TC001_AccountRegisterationTest - Validating the Confirmation message
-18:46:02.597 [main] INFO  testCases.TC001_AccountRegisterationTest - Test Passed:Your Account Has Been Created!
-18:46:02.601 [main] INFO  testCases.TC001_AccountRegisterationTest - ***********Completed TC001_AccountRegisterationTest***********
-18:46:09.370 [main] INFO  testCases.TC002_LoginTestcase1 - **************Started TC002_LoginTestcase1************
-18:46:09.371 [main] INFO  testCases.TC002_LoginTestcase1 - Click the MyAccount link from the homepage
-18:46:09.514 [main] INFO  testCases.TC002_LoginTestcase1 - Click the Login link from the homepage
-18:46:09.809 [main] INFO  testCases.TC002_LoginTestcase1 - After Clicking  the Login link and it is navigated to the Login Page
-18:46:09.811 [main] INFO  testCases.TC002_LoginTestcase1 - Enterthe below details from the Login Page
-18:46:10.109 [main] INFO  testCases.TC002_LoginTestcase1 - Click the login button from the Login Page
-18:46:14.171 [main] INFO  testCases.TC002_LoginTestcase1 - After clicking the login button and it has to navigate to MyAccount Page
-18:46:14.249 [main] INFO  testCases.TC002_LoginTestcase1 - Verify the Heading the msg from the MyAccount Page, So the MyAccount page exists
-18:46:14.249 [main] INFO  testCases.TC002_LoginTestcase1 - **************Finished TC002_LoginTestcase1************
-18:57:37.991 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml"
-18:57:38.026 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml] otherwise TestNG may fail or not work as expected.
-18:57:45.762 [main] INFO  testCases.TC001_AccountRegisterationTest - ***************Started TC001_AccountRegisterationTest***********
-18:57:45.790 [main] INFO  testCases.TC001_AccountRegisterationTest - Click the MyAccount Link from the hompage
-18:57:45.940 [main] INFO  testCases.TC001_AccountRegisterationTest - Click the Registeration Link from the hompage
-18:57:46.597 [main] INFO  testCases.TC001_AccountRegisterationTest - After Clicking the Registeration Link it is navigated to the Account Registeration Page
+18:57:46.600 [main] INFO  testCases.TC001_AccountRegisterationTest - Add the below details in the Registeraion page for the Registeration purpose
+18:57:50.965 [main] INFO  testCases.TC001_AccountRegisterationTest - Validating the Confirmation message
+18:57:51.041 [main] INFO  testCases.TC001_AccountRegisterationTest - Test Passed:Your Account Has Been Created!
+18:57:51.046 [main] INFO  testCases.TC001_AccountRegisterationTest - ***********Completed TC001_AccountRegisterationTest***********
+18:57:56.658 [main] INFO  testCases.TC002_LoginTestcase1 - **************Started TC002_LoginTestcase1************
+18:57:56.763 [main] INFO  testCases.TC002_LoginTestcase1 - Click the MyAccount link from the homepage
+18:57:56.901 [main] INFO  testCases.TC002_LoginTestcase1 - Click the Login link from the homepage
+18:57:57.202 [main] INFO  testCases.TC002_LoginTestcase1 - After Clicking  the Login link and it is navigated to the Login Page
+18:57:57.204 [main] INFO  testCases.TC002_LoginTestcase1 - Enterthe below details from the Login Page
+18:57:57.535 [main] INFO  testCases.TC002_LoginTestcase1 - Click the login button from the Login Page
+18:58:01.464 [main] INFO  testCases.TC002_LoginTestcase1 - After clicking the login button and it has to navigate to MyAccount Page
+18:58:01.516 [main] INFO  testCases.TC002_LoginTestcase1 - Verify the Heading the msg from the MyAccount Page, So the MyAccount page exists
+18:58:01.516 [main] INFO  testCases.TC002_LoginTestcase1 - **************Finished TC002_LoginTestcase1************
+19:01:46.532 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml"
+19:01:46.567 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml] otherwise TestNG may fail or not work as expected.
+19:01:54.037 [main] INFO  testCases.TC001_AccountRegisterationTest - ***************Started TC001_AccountRegisterationTest***********
+19:01:54.066 [main] INFO  testCases.TC001_AccountRegisterationTest - Click the MyAccount Link from the hompage
+19:01:54.220 [main] INFO  testCases.TC001_AccountRegisterationTest - Click the Registeration Link from the hompage
+19:01:54.995 [main] INFO  testCases.TC001_AccountRegisterationTest - After Clicking the Registeration Link it is navigated to the Account Registeration Page
+19:01:54.997 [main] INFO  testCases.TC001_AccountRegisterationTest - Add the below details in the Registeraion page for the Registeration purpose
+19:02:01.748 [main] INFO  testCases.TC001_AccountRegisterationTest - Validating the Confirmation message
+19:02:01.791 [main] INFO  testCases.TC001_AccountRegisterationTest - Test Passed:Your Account Has Been Created!
+19:02:01.794 [main] INFO  testCases.TC001_AccountRegisterationTest - ***********Completed TC001_AccountRegisterationTest***********
+19:02:06.996 [main] INFO  testCases.TC002_LoginTestcase1 - **************Started TC002_LoginTestcase1************
+19:02:06.998 [main] INFO  testCases.TC002_LoginTestcase1 - Click the MyAccount link from the homepage
+19:02:07.136 [main] INFO  testCases.TC002_LoginTestcase1 - Click the Login link from the homepage
+19:02:07.431 [main] INFO  testCases.TC002_LoginTestcase1 - After Clicking  the Login link and it is navigated to the Login Page
+19:02:07.433 [main] INFO  testCases.TC002_LoginTestcase1 - Enterthe below details from the Login Page
+19:02:07.727 [main] INFO  testCases.TC002_LoginTestcase1 - Click the login button from the Login Page
+19:02:13.184 [main] INFO  testCases.TC002_LoginTestcase1 - After clicking the login button and it has to navigate to MyAccount Page
+19:02:13.282 [main] INFO  testCases.TC002_LoginTestcase1 - Verify the Heading the msg from the MyAccount Page, So the MyAccount page exists
+19:02:13.282 [main] INFO  testCases.TC002_LoginTestcase1 - **************Finished TC002_LoginTestcase1************
+20:07:01.041 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml"
+20:07:01.078 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml] otherwise TestNG may fail or not work as expected.
+20:07:01.771 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml
+
+20:08:13.155 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml"
+20:08:13.188 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml] otherwise TestNG may fail or not work as expected.
+20:08:13.761 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\WorkSpace\Java\OpenCartVersion1.2.1\MasterSuite.xml
+
