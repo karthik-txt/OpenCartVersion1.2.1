@@ -1,0 +1,22 @@
+<suite name="Mysuite">
+	<listeners>
+		<listener class-name="utilities.ExtenReportManager"/>
+	</listeners>
+	<test thread-count="5" name="MyTest">
+		<groups>
+			<run>
+				<!--<include name="Sanity"/>-->
+				<include name="Master" />
+				<!--<exclude name="Regression"/>-->
+			</run>
+		</groups>
+		<parameter name="os" value="Windows"/>
+		<parameter name="browser" value="Chrome"/>
+		
+		<classes>
+			<class name="testCases.TC001_AccountRegisterationTest"/>
+			<class name="testCases.TC002_LoginTestcase1"/>
+			<class name="testCases.TC003_LoginTestcaseDDT"/>
+		</classes>
+	</test>
+</suite>

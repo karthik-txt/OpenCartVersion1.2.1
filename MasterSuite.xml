@@ -1,0 +1,16 @@
+<suite name="Suite">
+	<listeners>
+		<listener class-name="utilities.ExtenReportManager"/>
+	</listeners>
+	<test name="MyTest">
+		<parameter name="os" value="Windows"/>
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC001_AccountRegisterationTest"/>
+			<class name="testCases.TC002_LoginTestcase1"/>
+		<!--<class name="testCases.TC003_LoginTestcaseDDT"/>-->
+		<!--<class name="testCases.TC_LF_001_005_LoginTestCasesDDT"/>-->
+		</classes>
+	</test>
+</suite>
+
