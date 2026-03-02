@@ -74,5 +74,29 @@ public class LoginPage extends BasePage {
 		}
 	}
 	
+	public String getEmailField(String attribute) {
+		try {
+		return txt_LoginEmail_Id.getDomAttribute(attribute);
+		}catch(Exception e) {
+			return (e.getMessage());
+		}
+	}
+	
+	public String getLoginPwdField(String attribute) {
+		try {
+		return txt_LoginPwd.getDomAttribute(attribute);
+		}catch(Exception e) {
+			return (e.getMessage());
+		}
+	}
+	
+	public boolean emailIdIsdisplayed() {
+		try {
+		return txt_LoginEmail_Id.isDisplayed();
+		}catch(Exception e) {
+			return (e.getMessage()) != null;
+		}
+	}
+	
 
 }

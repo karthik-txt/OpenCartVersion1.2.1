@@ -140,5 +140,14 @@ public class BaseClass {
 		return url;
 	}
 	
+	public void NavigateBack() {
+		driver.navigate().back();
+	}
+	
+	public void NavigateForward() {
+		driver.navigate().forward();
+	}
+	
+	
 	
 }
